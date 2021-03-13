@@ -1,0 +1,250 @@
+html, body.desktop-bg {
+    height: 100%;
+    position: relative;
+    background: none;
+    background-color: #fff;
+}
+input::-webkit-input-placeholder{
+    color:#CECECE
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#CECECE
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#CECECE
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#CECECE
+}
+.topts{
+    position: fixed;
+    left:0;
+    top:0;
+background: #292929;
+width: 100%;
+height: 60px;
+
+font-size: 14px;
+font-family: PingFangSC-Regular, PingFang SC;
+font-weight: 400;
+color: #FFFFFF;
+line-height: 60px;
+text-align: center;
+}
+.topts span{
+    color: #FF5B5B;   
+}
+.dlb{display: inline-block;}
+.red-btn{
+    
+    
+    height: 30px;
+    background: #FF5B5B;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 30px;
+    text-align: center;
+}
+.w110{width: 110px;}
+.w140{width: 140px;}
+
+.login-div{
+    padding-top: 120px;
+}
+.login-logo img{
+    display: block;
+    margin: auto;
+    width: 102px;
+    height: 102px;
+}
+.login-text{
+    text-align: center;
+    height: 45px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 45px;
+}
+.red-btn.w140{
+    display: block;
+    margin: auto;
+}
+.login-texts{
+    text-align: center;
+    height: 17px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #888888;
+    line-height: 17px;
+    margin-top:15px
+}
+.login-textbs{
+    margin-top:50px;
+font-size: 11px;
+font-family: PingFangSC-Regular, PingFang SC;
+font-weight: 400;
+color: #777777;
+line-height: 30px;
+text-align: center;
+}
+.login-textbs img{
+    width: 74px;
+    height: 17px;
+    display: block;
+    margin:0 auto;
+    }
+    .layui-form-item{
+        width: 280px;
+        margin: 20px auto 34px;
+        position: relative;
+    }
+    .layui-input{
+height: 48px;
+font-size: 14px;
+font-family: PingFangSC-Regular, PingFang SC;
+font-weight: 400;
+color: #000;
+line-height: 48px;
+padding:0;
+border-radius: 0;
+border:none;
+border-bottom:1px solid #CECECE;
+
+
+    }
+
+    .layui-input:hover{
+        border-color: #FF5B5B!important;
+    }
+    .sendms,.countdown{
+        position: absolute;
+        right:0;
+        top:4px;
+height: 40px;
+font-size: 14px;
+font-family: PingFangSC-Medium, PingFang SC;
+font-weight: 500;
+color: rgba(31, 37, 50, 0.65);
+line-height: 40px;
+    }
+    .switchlogin{
+        position: fixed;
+        left:50%;
+        top:50%;
+        margin-left:-152px;
+        margin-top:-68px;
+    width: 304px;
+    height: 136px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid rgba(197, 197, 197, 0.34);}
+    .guanbibtn{
+        position: absolute;
+        top:13px;right: 10px;
+        width: 12px;
+        height: 12px;
+        background: url(../images/gbbtn.png) center no-repeat; 
+        background-size: 12px 12px;
+    }
+    .slbt{   
+        text-align: center;
+    height: 17px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #545454;
+    line-height: 17px;
+    margin-top:16px
+    }
+.switchlist{
+    width: 276px;
+    margin: 22px auto 0;
+}
+.switchlist li{
+    width: 92px;
+    float: left;
+}
+.switchlist li img{
+    width: 42px;
+    display: block;
+    margin: 0 auto;
+}
+.switchlist li p{
+    text-align: center;
+    height: 26px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #A4A2A2;
+    line-height: 26px;
+}
+.shaoma{
+    position: fixed;
+    top: 130px;
+    left: 50%;
+    margin-left: -144px;
+    width: 208px;
+    height: 226px;
+    padding: 10px 40px 50px;
+    background-color: #fff;
+}
+.erweima{
+    position: relative;
+    width: 208px;
+    height: 208px;
+}
+.erweima img{
+    width: 208px;
+    height: 208px;
+}
+.erweima img.a{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    margin-left:-18px;
+    margin-top:-18px;
+}
+.shaoma p{
+    height: 16px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 16px;
+    text-align: center;
+}
+.shaomaloading{
+    position: fixed;
+    width: 400px;
+    height: 340px;
+    left: 50%;
+    top: 120px;
+    margin-left: -200px;
+    background-color: #fff;
+}
+.shaomaloading img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left:-13px;
+    margin-right: -13px;
+    -webkit-animation:layui-rotate linear 1s infinite;
+}
+@-webkit-keyframes layui-rotate {from {-webkit-transform:rotate(0)}
+to {-webkit-transform:rotate(360deg)}
+}
+@keyframes layui-rotate {from {transform:rotate(0)}
+to {transform:rotate(360deg)}
+}
+
+

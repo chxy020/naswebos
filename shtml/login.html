@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>登录</title>
+  <meta name="keywords" content="desktop">
+  <meta name="description" content="desktop">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="themes/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="themes/desktop/style/desktop.css">
+  <link rel="stylesheet" type="text/css" href="themes/desktop/style/desktop-login.css">
+</head>
+<body>
+  <div class="topts">
+    我们使用 cookie 更好的优化服务，<span>Cookie 条款</span>。
+    <div class="red-btn dlb w110">确定</div>
+  </div>
+
+  <div class="login-div">
+    <div class="login-logo">
+      <img src="themes/desktop/images/logo.png"/>
+    </div>
+    <p class="login-text">
+      通过 web.thinnas.com 访问我的口袋视频存储
+    </p>
+    <form method="post" class="layui-form">
+      <div class="layui-form-item">
+          <input id="username" name="username" placeholder="手机号码" type="text" lay-verify="required" class="layui-input" >
+      </div>
+      <!-- <div class="layui-form-item">
+        <input id="username" name="username" placeholder="密码" type="password" lay-verify="required" class="layui-input" >
+      </div> -->
+      <!-- <div class="layui-form-item">
+        <input id="username" name="username" placeholder="验证码" type="text" lay-verify="required" class="layui-input" >
+        <div class="sendms">发送短信</div>
+        <div class="countdown">120秒后重发</div>
+      </div> -->
+    </form>
+    <div class="red-btn w140">连接我的NAS</div>
+    <p class="login-texts">切换登录方式</p>
+    <p class="login-textbs">
+      <img src="themes/desktop/images/cplogo.png"/>
+      Copyright © 2020 北京劲群科技有限公司 京ICP备19053494号-3
+    </p>
+  </div>
+<!-- 扫码登录方式 弹框 -->
+<div class="shaoma" style="display: none;">
+  <div class="erweima">
+    <img id="qrcode" src="data:image/jpg;base64,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">
+    <img class="a" src="themes/desktop/images/logo.png"/>
+  </div>
+  <p>通过 口袋视频存储APP 扫码功能登录</p>
+</div>
+<!-- 扫码完登录中 弹框 -->
+<div class="shaomaloading">
+  <img class="a" src="themes/desktop/images/loading.png"/>
+</div>
+<!-- 切换登录方式 弹框 -->
+<div class="switchlogin" style="display: none;">
+  <div class="guanbibtn"></div>
+  <div class="slbt">切换登录方式</div>
+  <ul class="switchlist">
+    <li>
+      <img src="themes/desktop/images/a1.png"/>
+      <p>短信验证</p>
+    </li>
+    <li>
+      <img src="themes/desktop/images/a2.png"/>
+      <p>口令</p>
+    </li>
+    <li>
+      <img src="themes/desktop/images/a3.png"/>
+      <p>扫码</p>
+    </li>
+  </ul>
+</div>
+
+
+</body>
+</html>
